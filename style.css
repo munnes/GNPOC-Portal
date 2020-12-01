@@ -1,0 +1,42 @@
+
+
+/***********************/
+.container {
+  position: relative;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  width: 100%;
+  background-color: #003580;
+}
+body{
+  background-color: #009fe3;
+
+  color: #f2f6fa;
+  font-size: 16px;
+}
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0; 
+
+ 
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+
+  bottom:0;
+background: #f2f6fa;
+text-align: center;
+width: 100%;
+color: #feba02;
+ 
+height: 10%;
+font-weight: bold;
+margin-left: -10px;
+font-size: 16px;}
