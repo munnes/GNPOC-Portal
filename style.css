@@ -21,7 +21,7 @@ body{
   bottom: 0; 
 }
 @media  (max-width: 900px) {
-  top:10
+margin-top:100px;
 }
 img{
   display: block;
