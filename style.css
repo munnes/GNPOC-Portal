@@ -20,11 +20,7 @@ body{
   position: absolute;
   bottom: 0; 
 }
-@media  (max-width: 1000px) {
-.container { margin-top: 300px;
-    background-color: #003580;
-  }
-  }
+
 img{
   display: block;
   margin-left: auto;
