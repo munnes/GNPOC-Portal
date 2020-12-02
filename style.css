@@ -1,0 +1,103 @@
+
+
+/***********************/
+#myContent{
+  position: relative;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  width: 100%;
+  background-color: #003580;
+
+}
+body{
+  background-color: #009fe3;
+
+  color: #f2f6fa;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#isTitle{
+  font-size:30 ;
+  font-weight: bold;
+}
+.isHeader{
+  font-size: 18;
+  font-weight: bold;
+}
+#myContent img {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /**responsive image*/
+  height:auto;
+  max-width: 100%;
+  }
+ 
+  
+
+
+#myContent .content {
+ position: absolute; 
+
+  bottom: 0; 
+  padding-left: 20px;
+
+}
+
+#myContent .isHeader{
+  color: #feba02;
+}
+footer{
+  position: relative;
+
+background: #f2f6fa;
+text-align: center;
+
+color:  #003580;
+ 
+height: 50%;
+font-weight: bold;
+
+font-size: 16px;}
+
+@media  (max-width: 800px)and (min-width :541px){
+  body{
+  font-size: 14px;
+  }
+  
+  #isTitle{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .isHeader{
+  font-size: 16px;
+  }
+  header .row{
+    justify-content: center;
+        }
+      footer{
+        font-size: 14px;
+      }
+  }
+@media  (max-width: 540px){
+body{
+font-size: 11px;
+}
+
+#isTitle{
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.isHeader{
+font-size: 14px;
+}
+header .row{
+justify-content: center;
+    }
+    footer{
+      font-size: 12px;
+    }
+
+}
