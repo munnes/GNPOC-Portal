@@ -101,3 +101,24 @@ justify-content: center;
 
 }
 
+@media  (max-width: 440px){
+body{
+font-size: 9px;
+}
+
+#isTitle{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.isHeader{
+font-size: 10px;
+}
+header .row{
+justify-content: center;
+    }
+    footer{
+      font-size: 9px;
+    }
+
+}
+
