@@ -83,21 +83,22 @@ font-size: 16px;}
   }
 @media  (max-width: 540px){
 body{
-font-size: 11px;
+font-size: 10px;
 }
 
 #isTitle{
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
 }
 .isHeader{
-font-size: 14px;
+font-size: 12px;
 }
 header .row{
 justify-content: center;
     }
     footer{
-      font-size: 12px;
+      font-size: 10px;
     }
 
 }
+
