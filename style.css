@@ -58,7 +58,7 @@ font-weight: bold;
 
 font-size: 16px;}
 
-@media  (max-width: 800px)and (min-width :541px){
+@media  (max-width: 900px){
   body{
   font-size: 14px;
   }
@@ -70,14 +70,12 @@ font-size: 16px;}
   .isHeader{
   font-size: 16px;
   }
-  header .row{
-    justify-content: center;
-        }
+  
       footer{
         font-size: 14px;
       }
   }
-@media  (max-width: 540px){
+@media  (max-width: 600px){
 body{
 font-size: 11px;
 }
